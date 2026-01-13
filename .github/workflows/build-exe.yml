@@ -24,7 +24,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --name VideoLibrary app.py
+          pyinstaller --onefile --name VideoLibrary video-explorer.py
 
       - name: Upload EXE to Release
         uses: softprops/action-gh-release@v2
